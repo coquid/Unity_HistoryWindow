@@ -24,6 +24,6 @@ jobs:
           git tag ${{env.UPM_BRANCH_NAME}}-${{env.TAG_NAME}}
           git push -f -u origin ${{env.UPM_BRANCH_NAME}}
     env:
-      PKG_ROOT: Assets/Gemserk.SelectionHistory
+      PKG_ROOT: Assets/Coquid.SelectionHistory
       TAG_NAME: ${{github.event.ref}}
-      UPM_BRANCH_NAME: com.gemserk.selectionhistory
+      UPM_BRANCH_NAME: com.coquid.selectionhistory
