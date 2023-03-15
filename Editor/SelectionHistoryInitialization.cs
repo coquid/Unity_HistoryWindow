@@ -26,7 +26,7 @@ namespace SelectionHistoryWindow
             } 
         }
 		
-        [MenuItem("Window/Coquid/Previous selection %#,")]
+        [MenuItem("Tools/SelectionHistory/Previous selection %#,")]
         [Shortcut("Selection History/Previous Selection")]
         public static void PreviousSelection()
         {
@@ -35,7 +35,7 @@ namespace SelectionHistoryWindow
             Selection.activeObject = selectionHistory.GetSelection ();
         }
 
-        [MenuItem("Window/Coquid/Next selection %#.")]
+        [MenuItem("Tools/SelectionHistory/Next selection %#.")]
         [Shortcut("Selection History/Next Selection")]
         public static void NextSelection()
         {

@@ -8,7 +8,7 @@ namespace SelectionHistoryWindow
 {
     public class SelectionHistoryWindow : EditorWindow, IHasCustomMenu
     {
-        [MenuItem("Window/Coquid/Selection History %#h")]
+        [MenuItem("Tools/SelectionHistory/Selection History %#h")]
         public static void OpenWindow()
         {
             var window = GetWindow<SelectionHistoryWindow>();

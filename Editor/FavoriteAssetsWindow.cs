@@ -7,7 +7,7 @@ namespace SelectionHistoryWindow
 {
     public class FavoriteAssetsWindow : EditorWindow
     {
-        [MenuItem("Window/Coquid/Favorites")]
+        [MenuItem("Tools/SelectionHistory/Favorites")]
         public static void OpenWindow()
         {
             var window = GetWindow<FavoriteAssetsWindow>();
