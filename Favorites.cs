@@ -6,7 +6,6 @@ using Object = UnityEngine.Object;
 
 namespace SelectionHistoryWindow
 {
-    [CreateAssetMenu(menuName = "Coquid/Favorites Asset")]
     public class Favorites : ScriptableObject
     {
         [Serializable]
